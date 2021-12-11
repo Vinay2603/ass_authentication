@@ -52,7 +52,7 @@ const signin = async(req,res)=>{
 
 
 
-  // create a new token and return it    // doubt 
+  // create a new token and return it    
   const token = newToken(user )
   return res.status(201).json({data :{token }})
 
